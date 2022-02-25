@@ -1,4 +1,4 @@
 class fibonacci():
 
-    def run_secuence_fibonacci(self, number):
+    def run_secuence_fibonacci(self, position):
         return "0"
