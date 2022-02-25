@@ -6,5 +6,5 @@ class FibonacciShould(unittest.TestCase):
 
     def test_returns_cero_when_is_first_case(self):
         fibo = fibonacci.fibonacci()
-        number = fibo.run_secuence_fibonacci()
+        number = fibo.run_secuence_fibonacci(0)
         self.assertEqual(number, "0")
