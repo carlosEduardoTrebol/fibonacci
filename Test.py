@@ -14,6 +14,11 @@ class FibonacciShould(unittest.TestCase):
         number = fibo.run_secuence_fibonacci(1)
         self.assertEqual(number, "1")
 
+    def test_ReturnNumberFromPosition(self):
+        fibo = fibonacci.fibonacci()
+        number = fibo.run_secuence_fibonacci(15)
+        self.assertEqual(number, "610")
+
     # def test_returns_three_when_is_third_case(self):
     #     fibo = fibonacci.fibonacci()
     #     number = fibo.run_secuence_fibonacci(2)
